@@ -1,55 +1,25 @@
 # Prerequisites
-*.d
+ai-os/*.d
+ai-os-smartcard/*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Compiled Object files
+ai-os/*.o
+ai-os-smartcard/*.o
+ai-os/*.elf
+ai-os-smartcard/*.elf
+ai-os/*.bin
+ai-os-smartcard/*.bin
+ai-os/*.map
+ai-os-smartcard/*.map
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Custom OS bundles and cartridges
+ai-os/*.atkm
+ai-os-smartcard/*.atkm
 
-# Precompiled Headers
-*.gch
-*.pch
+# macOS specific
+ai-os/.DS_Store
+ai-os-smartcard/.DS_Store
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# QEMU/Logs
+ai-os/*.log
+ai-os-smartcard/*.log
